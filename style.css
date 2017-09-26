@@ -1,0 +1,47 @@
+
+.site-background {
+    background-image: url("assets/img/background.png");
+    background-size: cover;
+}
+
+.site-landing {
+    height: 150vh;
+    /*background-image: url("assets/img/logo_large.png");
+    background-repeat: no-repeat;
+    background-size: 50% 50%;*/
+}
+
+
+.site-logo {
+    max-width: 420px;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.site-text {
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    text-align: center;
+    color: black;
+}
+
+.navbar {
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    background: black;
+    color: white;
+}
+
+.site-footer {
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    background: black;
+}
+
+@media screen and (min-width: 1200px) {
+    .site-background {
+        /*background-image: url("assets/img/background.png");*/
+        background-size: 1200px 1000px;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+}
