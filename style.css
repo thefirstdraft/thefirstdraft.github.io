@@ -1,47 +1,92 @@
-
-.site-background {
-    background-image: url("assets/img/background.png");
-    background-size: cover;
+.navbar {
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    background: black;
+    color: white;
+}
+.site-footer {
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    background: black;
 }
 
-.site-landing {
-    height: 150vh;
-    /*background-image: url("assets/img/logo_large.png");
-    background-repeat: no-repeat;
-    background-size: 50% 50%;*/
+#tl-triangles {
+    float:left;
+    margin-left: 0px;
+    padding-top: 20vw;
+    width: 18vw;
+}
+#tr-triangles {
+    float: right;
+    margin-right: 0px;
+    padding-bottom: 20vw;
+    width: 16vw;
+}
+#br-triangles {
+    float: right;
+    margin-right: 0px;
+    padding-top: 10vw;
+    width: 16vw;    
+}
+#logo-header {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:32vw;
 }
 
-
-.site-logo {
-    max-width: 420px;
-    margin-top: 15%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+#l-zigzag {
+    float:left;
+    /*padding-top: 32vw;*/
+    padding-right: 1vw;
+    width: 20vw;
 }
+#r-zigzag {
+    float:right;
+    /*padding-bottom: 32vw;*/
+    padding-left: 1vw;
+    width: 20vw;
+}
+
 
 .site-text {
     font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
     text-align: center;
     color: black;
 }
-
-.navbar {
-    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
-    background: black;
-    color: white;
+.site-paragraph {
+    text-align: justify;
+    font-size: 1.4em;
 }
 
-.site-footer {
-    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
-    background: black;
+#member-paragraph {
+    font-size: 1.3em;
 }
+.members-right {
+    text-align: right;
+}
+.members-left {
+    text-align: left;
+} 
+.member-image {
+    padding-bottom: 4vw;
+}
+.contact-right {
+    text-align: left;
+}
+.contact-left {
+    text-align: right;
+}
+.site-link {
+    text-decoration: none;
+    color: black;
+}
+.site-link:hover {
+    text-decoration: none;
+    color: red;
+}
+.site-link:active {
+    text-decoration: none;
+    color: red;
+}
+/*#intro-header {
 
-@media screen and (min-width: 1200px) {
-    .site-background {
-        /*background-image: url("assets/img/background.png");*/
-        background-size: 1200px 1000px;
-        background-repeat: no-repeat;
-        background-position: center top;
-    }
-}
+}*/
