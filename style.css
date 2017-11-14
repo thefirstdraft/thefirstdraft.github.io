@@ -43,11 +43,9 @@
 #r-zigzag {
     float:right;
     /*padding-bottom: 32vw;*/
-    padding-left: 1vw;
-		width: 16vw;
-		z-index: -1;
+		padding-left: 1vw;
+		width: 16vw;		
 }
-
 
 .site-text {
 		font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
