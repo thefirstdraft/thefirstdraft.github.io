@@ -53,6 +53,11 @@
     text-align: center;
     color: black;
 }
+.site-subheading {
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+	text-align: justify;
+	color: black;
+}
 .site-paragraph {
     text-align: justify;
     font-size: 1.4em;
