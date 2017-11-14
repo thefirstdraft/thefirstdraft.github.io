@@ -44,14 +44,15 @@
     float:right;
     /*padding-bottom: 32vw;*/
     padding-left: 1vw;
-    width: 20vw;
+		width: 16vw;
+		z-index: -1;
 }
 
 
 .site-text {
 		font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
     text-align: center;
-    color: black;
+		color: black;
 }
 .site-subheading {
 	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
